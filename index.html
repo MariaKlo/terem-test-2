@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lorem ipsum">
+    <meta name="keywords" content="lorem ipsum, lorem, ipsum">
+    <!-- Icons -->
+    <link rel="icon" href="./icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./form.css">
+    <title>Тест</title>
+</head>
+<body>
+    <div class="container">
+        <form action="./handler.php" method="get" class="form" id="form" name="myForm">
+            <div class="form__wrapper">
+                <select name="list1" id="list1" class="form__select" required>
+                    <option value="">Выберите число</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="list2" id="list2" class="form__select" required>
+                    <option value="">Выберите число</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="list3" id="list3" class="form__select" required>
+                    <option value="">Выберите число</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="list4" id="list4" class="form__select" required>
+                    <option value="">Выберите число</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="list5" id="list5" class="form__select" required>
+                    <option value="">Выберите число</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <input type="text" name="name" placeholder="Введите имя" id="name" class="form__input" required>
+            <input type="number" name="age" placeholder="Введите ваш возраст" id="age" class="form__input" required>
+            <button type="submit" id="btn" class="form__btn">Submit</button>
+        </form>
+        <div class="data">
+            <p class="data__text" id="data__text">Данные пользователя: </p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./form.js"></script>
+</body>
+</html>
